@@ -1,0 +1,47 @@
+:root {
+  --color-negro: #0f0e17;
+  --color-verde: #00c200;
+  --color-blanco: #fffffe;
+  --color-placeholder: rgba(0, 0, 0, 0.3);
+}
+
+@font-face {
+  font-family: "Nunito 1";
+  src: url("/public/assets/Nunito-Bold.ttf");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Nunito 2";
+  src: url("/public/assets/Nunito-SemiBold.ttf");
+  font-display: swap;
+}
+
+html {
+  box-sizing: border-box;
+  overflow-x: visible;
+  overflow-y: visible;
+  min-width: 300px;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  color: var(--color-blanco);
+  font-size: 16px;
+  font-weight: normal;
+  line-height: normal;
+}
+
+img {
+  max-width: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+}
