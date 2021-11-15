@@ -1,3 +1,3 @@
-## Portafolio Digital
+# Portafolio Digital
 
-### Este es mi portafolio personal con los proyectos en los que he trabajado
+## Este es mi portafolio personal creado con React el cual tiene los proyectos en los que he trabajado
