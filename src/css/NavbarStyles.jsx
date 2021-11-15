@@ -95,7 +95,7 @@ export const Links = styled.a`
   
   text-decoration-line: none;
   color: var(--color-blanco);
-  transition: all 800ms ease;
+  transition: all 500ms ease;
 
   &:hover{
     color: var(--color-verde);
@@ -112,9 +112,8 @@ export const Links = styled.a`
 
 export const Hellolink = styled.a`
 
-  color: var(--color-verde);
-  text-decoration-line: underline;
-  transition: all 800ms ease;
+  color: var(--color-blanco);
+  transition: all 500ms ease;
 
   &:hover{
     color: var(--color-verde);

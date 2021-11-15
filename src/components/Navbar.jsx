@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import {Navstyle, Logolink, Imglogo, Links, Hellolink} from "../css/NavbarStyles";
 import {Cvbutton, Cvbuttonr, Hamburgercolor} from "../css/NavbarStyles";
 import {Hamburgerb} from "../css/NavbarStyles";
@@ -6,7 +6,72 @@ import {Hamburgerb} from "../css/NavbarStyles";
 
 const Navbar = () => {
 
-  /* return <h1>Hola Mundo React</h1> */
+  const [colorLink, setColorLink] = useState({
+
+    hola: "var(--color-verde)",
+    textHola: "underline",
+    proyectos: "",
+    textProyectos: "",
+    contacto: "",
+    textContacto: ""
+
+  });
+
+  const handleClick = ({target}) => {
+
+    if(target.matches("#hola")){
+
+      console.log(target);
+
+      setColorLink({
+
+        hola: "var(--color-verde)",
+        textHola: "underline",
+        proyectos: "",
+        textProyectos: "",
+        contacto: "",
+        textContacto: ""
+
+      })
+
+    }
+
+    if(target.matches("#proyectos")){
+
+      console.log(target);
+
+      setColorLink({
+
+        hola: "",
+        textHola: "",
+        proyectos: "var(--color-verde)",
+        textProyectos: "underline",
+        contacto: "",
+        textContacto: ""
+
+      })
+
+    }
+
+    if(target.matches("#contacto")){
+
+      console.log(target);
+
+      setColorLink({
+
+        hola: "",
+        textHola: "",
+        proyectos: "",
+        textProyectos: "",
+        contacto: "var(--color-verde)",
+        textContacto: "underline"
+
+      })
+
+    }
+
+  }
+
 
   return (
 
@@ -25,19 +90,25 @@ const Navbar = () => {
             title="Santiago Montoya Cano" alt="Santiago Montoya Cano"/>
         </a>
 
-        <Hellolink href="#welcome-section" id="hola">Hola</Hellolink>
-        <Links href="#projects" id="proyectos">Proyectos</Links>
-        <Links href="#contact" id="contacto">Contacto</Links>
+        <Hellolink href="#welcome-section" id="hola" onClick={handleClick} 
+                   style={{color: colorLink.hola, textDecorationLine: 
+                   colorLink.textHola}}>Hola</Hellolink>
+        <Links href="#projects" id="proyectos" onClick={handleClick}
+               style={{color: colorLink.proyectos, textDecorationLine: 
+               colorLink.textProyectos}}>Proyectos</Links>
+        <Links href="#contact" id="contacto" onClick={handleClick}
+               style={{color: colorLink.contacto, textDecorationLine: 
+               colorLink.textContacto}}>Contacto</Links>
 
       </Logolink>
 
       <section>
 
-        <a href="https://drive.google.com/uc?export=download&id=1nr2yYAmQ9PZ8jlTXg1Tt9fg38bGViG7H">
+        <a href="https://drive.google.com/uc?export=download&id=1K0GivMnpzjMM7hMbiRq4UMDdZXvnQsoc">
           <Cvbutton>Descargar Currículum</Cvbutton>
         </a>
 
-        <a href="https://drive.google.com/uc?export=download&id=1nr2yYAmQ9PZ8jlTXg1Tt9fg38bGViG7H">
+        <a href="https://drive.google.com/uc?export=download&id=1K0GivMnpzjMM7hMbiRq4UMDdZXvnQsoc">
           <Cvbuttonr>Currículum</Cvbuttonr>
         </a>
 

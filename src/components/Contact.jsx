@@ -5,13 +5,13 @@ import { Buttonsubmit } from '../css/ContactStyles';
 
 const Contact = () => {
 
-
+  const handleSubmit = e => e.target.reset();
   return (
 
 
     <ContainerStyle id="contact">
 
-      <Form action="https://formsubmit.co/santiagomontoya98@hotmail.com" method="POST" target="_blank">
+      <Form action="https://formsubmit.co/santiagomontoya98@hotmail.com" method="POST" target="_blank" onSubmit={handleSubmit}>
 
         <Formh2>Formulario de Contacto</Formh2>
 
