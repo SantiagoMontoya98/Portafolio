@@ -104,12 +104,12 @@ const Navbar = () => {
 
       <section>
 
-        <a href="https://drive.google.com/uc?export=download&id=1K0GivMnpzjMM7hMbiRq4UMDdZXvnQsoc">
-          <Cvbutton>Descargar Currículum</Cvbutton>
+        <a href="https://drive.google.com/uc?export=download&id=10UHqhlB4tPA7zxU03oTEQEp7X5nj5vQj">
+          <Cvbutton>Descargar Curriculum</Cvbutton>
         </a>
 
-        <a href="https://drive.google.com/uc?export=download&id=1K0GivMnpzjMM7hMbiRq4UMDdZXvnQsoc">
-          <Cvbuttonr>Currículum</Cvbuttonr>
+        <a href="https://drive.google.com/uc?export=download&id=10UHqhlB4tPA7zxU03oTEQEp7X5nj5vQj">
+          <Cvbuttonr>Curriculum</Cvbuttonr>
         </a>
 
       </section>
