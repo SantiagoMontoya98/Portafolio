@@ -1,5 +1,5 @@
 import React from 'react';
-import { Projectscontainer, Projectsarticle } from '../css/ProjectsStyles';
+import { Projectscontainer, Projectsarticle, Guappjolotas, Amazonas, CvApp } from '../css/ProjectsStyles';
 import { Projectsarticleh2, Projectsarticlep } from '../css/ProjectsStyles';
 import { Project, Projectimg, Blockmaster } from '../css/ProjectsStyles';
 import { Projecth2, Projectp, Buttonscontainer } from '../css/ProjectsStyles';
@@ -21,6 +21,84 @@ const Projects = () => {
       </Projectsarticlep>
 
     </Projectsarticle>
+
+    <Project>
+
+      <Projectimg
+        src="https://res.cloudinary.com/da6fz1omm/image/upload/v1641283094/Im%C3%A1genes%20Portafolio%20Digital/cvapp_l5ulnr.png"
+        title="CvApp" alt="CvApp"/>
+
+      <CvApp>
+
+        <Projecth2>CvApp</Projecth2>
+
+        <Projectp>Es una aplicación la cual permite crear un curriculum vitae de manera profesional e intuitiva, el cual puede ser descargado en formato PDF, además ofrece la oportunidad de ver diferentes tutoriales con el objetivo de enriquecer el cv y hacerlo mas atractivo para los reclutadores.</Projectp>
+
+        <Buttonscontainer>
+          <a href="https://cvapp-573c8.web.app/" target="_blank">
+            <Buttonview>Ver proyecto completo</Buttonview>
+          </a>
+
+          <a href="https://github.com/Juanpabedoyav/Demo-Day" target="_blank">
+            <Buttoncode>Ver código</Buttoncode>
+          </a>
+        </Buttonscontainer>
+
+      </CvApp>
+
+    </Project>    
+
+    <Project>
+
+      <Projectimg
+        src="https://res.cloudinary.com/da6fz1omm/image/upload/v1641281971/Im%C3%A1genes%20Portafolio%20Digital/amazonas_ibyfzb.png"
+        title="Amazonas" alt="Amazonas"/>
+
+      <Amazonas>
+
+        <Projecth2>Amazonas</Projecth2>
+
+        <Projectp>Es una aplicación en la cual se visualiza un pequeño clon de amazon y añade la funcionalidad de iniciar sesión con cuentas de Google o Facebook con la ayuda de Firebase.</Projectp>
+
+        <Buttonscontainer>
+          <a href="https://as-c9b11.web.app/" target="_blank">
+            <Buttonview>Ver proyecto completo</Buttonview>
+          </a>
+
+          <a href="https://github.com/SantiagoMontoya98/Amazonas" target="_blank">
+            <Buttoncode>Ver código</Buttoncode>
+          </a>
+        </Buttonscontainer>
+
+      </Amazonas>
+
+    </Project>
+
+    <Project>
+
+      <Projectimg
+        src="https://res.cloudinary.com/da6fz1omm/image/upload/v1641280775/Im%C3%A1genes%20Portafolio%20Digital/guappjolotas_d17rum.png"
+        title="Guappjolotas" alt="Guappjolotas"/>
+
+      <Guappjolotas>
+
+        <Projecth2>Guappjolotas</Projecth2>
+
+        <Projectp>Es una aplicación en la cual se venden guajolotas un platillo típico de México, además bebidas y tamales, la cual está conectada con la API de Stripe con el objetivo de realizar el pago de los productos.</Projectp>
+
+        <Buttonscontainer>
+          <a href="https://guappjolotas.herokuapp.com/" target="_blank">
+            <Buttonview>Ver proyecto completo</Buttonview>
+          </a>
+
+          <a href="https://github.com/SantiagoMontoya98/Guappjolotas" target="_blank">
+            <Buttoncode>Ver código</Buttoncode>
+          </a>
+        </Buttonscontainer>
+
+      </Guappjolotas>
+
+    </Project>
 
     <Project>
 
@@ -65,7 +143,7 @@ const Projects = () => {
         <Projectp>Es una landing page en la cual se ofrece el servicio de educación financiera
           personalizada en español con los
           mentores
-          mas experimentados a nivel mundial.</Projectp>
+          más experimentados a nivel mundial.</Projectp>
 
         <Buttonscontainer>
           <a href="https://santiagomontoya98.github.io/Producto-Comercial/" target="_blank">

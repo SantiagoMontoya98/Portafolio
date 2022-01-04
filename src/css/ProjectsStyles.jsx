@@ -82,6 +82,99 @@ export const Projectimg = styled.img`
 
 `;
 
+export const CvApp = styled.article`
+
+  width: 380px;
+  height: 300px;
+  background-color: var(--color-negro);
+  position: absolute;
+  top: 55px;
+  left: 10px;
+  padding-left: 20px;
+  padding-right: 10px;
+  box-shadow: 1px 1px 20px -1px var(--color-negro);
+
+  @media(max-width: 747px){
+    width: 320px;
+    height: 280px;
+  }
+
+  @media(max-width: 607px){
+    width: 240px;
+    height: 230px;
+    padding-left: 15px;
+  }
+
+  @media(max-width: 532px){
+    width: 230px;
+    height: 235px;
+    padding-left: 15px;
+  }
+
+`;
+
+export const Amazonas = styled.article`
+
+  width: 380px;
+  height: 235px;
+  background-color: var(--color-negro);
+  position: absolute;
+  top: 55px;
+  left: 10px;
+  padding-left: 20px;
+  padding-right: 10px;
+  box-shadow: 1px 1px 20px -1px var(--color-negro);
+
+  @media(max-width: 747px){
+    width: 320px;
+    height: 280px;
+  }
+
+  @media(max-width: 607px){
+    width: 240px;
+    height: 230px;
+    padding-left: 15px;
+  }
+
+  @media(max-width: 532px){
+    width: 230px;
+    height: 235px;
+    padding-left: 15px;
+  }
+
+`;
+
+export const Guappjolotas = styled.article`
+
+  width: 380px;
+  height: 255px;
+  background-color: var(--color-negro);
+  position: absolute;
+  top: 55px;
+  left: 10px;
+  padding-left: 20px;
+  padding-right: 10px;
+  box-shadow: 1px 1px 20px -1px var(--color-negro);
+
+  @media(max-width: 747px){
+    width: 320px;
+    height: 280px;
+  }
+
+  @media(max-width: 607px){
+    width: 240px;
+    height: 230px;
+    padding-left: 15px;
+  }
+
+  @media(max-width: 532px){
+    width: 230px;
+    height: 235px;
+    padding-left: 15px;
+  }
+
+`;
+
 export const Blockmaster = styled.article`
 
   width: 380px;
