@@ -17,7 +17,7 @@ const Projects = () => {
       <Projectsarticleh2>Parece magia, funciona con código</Projectsarticleh2>
 
       <Projectsarticlep>
-        Como desarrollador Frontend Junior he trabajado en los siguientes proyectos...
+        Como desarrollador Frontend he trabajado en los siguientes proyectos...
       </Projectsarticlep>
 
     </Projectsarticle>
