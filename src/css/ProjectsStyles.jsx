@@ -32,7 +32,7 @@ export const Projectsarticleh2 = styled.h2`
   color: var(--color-negro);
   margin-bottom: 0;
 
-  @media(max-width: 607px){
+  @media(max-width: 768px){
     margin-left: 20px;
     font-size: 26px; 
   }  
@@ -53,11 +53,11 @@ export const Projectsarticlep = styled.p`
   margin-bottom: 0;
   color: var(--color-negro);
 
-  @media(max-width: 1117px){
+  @media(max-width: 1200px){
     margin-left: 50px;
   }
 
-  @media(max-width: 607px){
+  @media(max-width: 768px){
     margin-left: 20px;
     font-size: 15px; 
   }  
@@ -67,12 +67,28 @@ export const Projectsarticlep = styled.p`
 
 export const Project = styled.section`
 
-  padding: 0 30px;
-  width: 80%;
+  padding: 0 5%;
+  width: 60%;
   height: 400px;
   margin: 50px 0;
-  position: relative;
+  position: relative;  
+  transition: all 800ms ease;  
 
+  @media(max-width: 1200px){
+    padding: 0 0;
+    width: 75%;    
+  }
+
+  @media(max-width: 768px){
+    padding: 0 2%;
+    width: 90%;
+  }
+
+  @media(max-width: 480px){
+    padding: 0 0;
+    width: 85%;
+  }
+  
 `;
 
 export const Projectimg = styled.img`
@@ -89,26 +105,28 @@ export const CvApp = styled.article`
   background-color: var(--color-negro);
   position: absolute;
   top: 55px;
-  left: 10px;
+  left: -27%;
   padding-left: 20px;
-  padding-right: 10px;
+  padding-right: 10px;  
   box-shadow: 1px 1px 20px -1px var(--color-negro);
+  transition: left 800ms ease;
 
-  @media(max-width: 747px){
+  @media(max-width: 1200px){
     width: 320px;
     height: 280px;
+    left: -14%;
   }
 
-  @media(max-width: 607px){
-    width: 240px;
-    height: 230px;
-    padding-left: 15px;
+  @media(max-width: 768px){
+    width: 250px;
+    height: 260px;
+    left: -2%;    
   }
 
-  @media(max-width: 532px){
+  @media(max-width: 480px){
     width: 230px;
-    height: 235px;
-    padding-left: 15px;
+    height: 245px;    
+    left: -5%;    
   }
 
 `;
@@ -119,27 +137,28 @@ export const Amazonas = styled.article`
   height: 235px;
   background-color: var(--color-negro);
   position: absolute;
-  top: 55px;
-  left: 10px;
+  top: 75px;
+  left: -27%;
   padding-left: 20px;
   padding-right: 10px;
   box-shadow: 1px 1px 20px -1px var(--color-negro);
 
-  @media(max-width: 747px){
+  @media(max-width: 1200px){
     width: 320px;
-    height: 280px;
+    height: 220px;
+    left: -14%;
   }
 
-  @media(max-width: 607px){
+  @media(max-width: 768px){
     width: 240px;
-    height: 230px;
-    padding-left: 15px;
+    height: 220px;
+    left: -2%;
   }
 
-  @media(max-width: 532px){
+  @media(max-width: 480px){
     width: 230px;
-    height: 235px;
-    padding-left: 15px;
+    height: 205px;
+    left: -5%;
   }
 
 `;
@@ -150,27 +169,28 @@ export const Guappjolotas = styled.article`
   height: 255px;
   background-color: var(--color-negro);
   position: absolute;
-  top: 55px;
-  left: 10px;
+  top: 70px;
+  left: -27%;
   padding-left: 20px;
   padding-right: 10px;
   box-shadow: 1px 1px 20px -1px var(--color-negro);
 
-  @media(max-width: 747px){
+  @media(max-width: 1200px){
     width: 320px;
-    height: 280px;
+    height: 240px;
+    left: -14%;
   }
 
-  @media(max-width: 607px){
+  @media(max-width: 768px){
     width: 240px;
     height: 230px;
-    padding-left: 15px;
+    left: -2%;    
   }
 
-  @media(max-width: 532px){
+  @media(max-width: 480px){
     width: 230px;
-    height: 235px;
-    padding-left: 15px;
+    height: 220px;
+    left: -5%;    
   }
 
 `;
@@ -178,30 +198,31 @@ export const Guappjolotas = styled.article`
 export const Blockmaster = styled.article`
 
   width: 380px;
-  height: 315px;
+  height: 320px;
   background-color: var(--color-negro);
   position: absolute;
-  top: 55px;
-  left: 10px;
+  top: 45px;
+  left: -27%;
   padding-left: 20px;
   padding-right: 10px;
   box-shadow: 1px 1px 20px -1px var(--color-negro);
 
-  @media(max-width: 747px){
+  @media(max-width: 1200px){
     width: 320px;
-    height: 280px;
+    height: 290px;
+    left: -14%;
   }
 
-  @media(max-width: 607px){
+  @media(max-width: 768px){
     width: 240px;
-    height: 230px;
-    padding-left: 15px;
+    height: 280px;
+    left: -2%;    
   }
 
-  @media(max-width: 532px){
+  @media(max-width: 480px){
     width: 230px;
-    height: 235px;
-    padding-left: 15px;
+    height: 260px;
+    left: -5%;    
   }
 
 `;
@@ -213,26 +234,27 @@ export const Landingpage = styled.article`
   background-color: var(--color-negro);
   position: absolute;
   top: 80px;
-  left: 10px;
+  left: -27%;
   padding-left: 20px;
   padding-right: 10px;
   box-shadow: 1px 1px 20px -1px var(--color-negro);
 
-  @media(max-width: 747px){
+  @media(max-width: 1200px){
     width: 320px;
-    height: 205px;
+    height: 215px;
+    left: -14%;
   }
 
-  @media(max-width: 607px){
+  @media(max-width: 768px){
     width: 240px;
-    height: 180px;
-    padding-left: 15px;
+    height: 210px;
+    left: -2%;
   }
 
-  @media(max-width: 532px){
+  @media(max-width: 480px){
     width: 230px;
-    height: 178px;
-    padding-left: 15px;
+    height: 200px;
+    left: -5%;
   }
 
 `;
@@ -244,26 +266,27 @@ export const Documentation = styled.article`
   background-color: var(--color-negro);
   position: absolute;
   top: 67px;
-  left: 10px;
+  left: -27%;
   padding-left: 20px;
   padding-right: 10px;
   box-shadow: 1px 1px 20px -1px var(--color-negro);
 
-  @media(max-width: 747px){
+  @media(max-width: 1200px){
     width: 320px;
-    height: 187px;
+    height: 190px;
+    left: -14%;
   }
 
-  @media(max-width: 607px){
+  @media(max-width: 768px){
     width: 240px;
-    height: 165px;
-    padding-left: 15px;
+    height: 195px;
+    left: -2%;
   }
 
-  @media(max-width: 532px){
+  @media(max-width: 480px){
     width: 230px;
-    height: 163px;
-    padding-left: 15px;
+    height: 185px;
+    left: -5%;
   }
 
 `;
@@ -274,27 +297,28 @@ export const Surveyform = styled.article`
   height: 285px;
   background-color: var(--color-negro);
   position: absolute;
-  top: 80px;
-  left: 10px;
+  top: 60px;
+  left: -27%;
   padding-left: 20px;
   padding-right: 10px;
   box-shadow: 1px 1px 20px -1px var(--color-negro);
 
-  @media(max-width: 747px){
+  @media(max-width: 1200px){
     width: 320px;
-    height: 250px;
+    height: 260px;
+    left: -14%;
   }
 
-  @media(max-width: 607px){
+  @media(max-width: 768px){
     width: 240px;
-    height: 215px;
-    padding-left: 15px;
+    height: 255px;
+    left: -2%;
   }
 
-  @media(max-width: 532px){
+  @media(max-width: 480px){
     width: 230px;
-    height: 210px;
-    padding-left: 15px;
+    height: 240px;
+    left: -5%;
   }
 
 `;
@@ -306,26 +330,27 @@ export const Tributepage = styled.article`
   background-color: var(--color-negro);
   position: absolute;
   top: 80px;
-  left: 10px;
+  left: -27%;
   padding-left: 20px;
   padding-right: 10px;
   box-shadow: 1px 1px 20px -1px var(--color-negro);
 
-  @media(max-width: 747px){
+  @media(max-width: 1200px){
     width: 320px;
-    height: 225px;
+    height: 235px;
+    left: -14%;
   }
 
-  @media(max-width: 607px){
+  @media(max-width: 768px){
     width: 240px;
-    height: 180px;
-    padding-left: 15px;
+    height: 215px;
+    left: -2%;
   }
 
-  @media(max-width: 532px){
+  @media(max-width: 480px){
     width: 230px;
-    height: 193px;
-    padding-left: 15px;
+    height: 200px;
+    left: -5%;
   }
 
 `;
@@ -336,27 +361,28 @@ export const CalculatorIMC = styled.article`
   height: 380px;
   background-color: var(--color-negro);
   position: absolute;
-  top: 40px;
-  left: 10px;
+  top: 8px;
+  left: -27%;
   padding-left: 20px;
   padding-right: 10px;
   box-shadow: 1px 1px 20px -1px var(--color-negro);
 
-  @media(max-width: 747px){
+  @media(max-width: 1200px){
     width: 320px;
-    height: 360px;
+    height: 365px;
+    left: -14%;
   }
 
-  @media(max-width: 607px){
+  @media(max-width: 768px){
     width: 240px;
-    height: 280px;
-    padding-left: 15px;
+    height: 360px;   
+    left: -2%;    
   }
 
-  @media(max-width: 532px){
+  @media(max-width: 480px){
     width: 230px;
-    height: 290px;
-    padding-left: 15px;
+    height: 335px;
+    left: -5%;    
   }
 
 `;
@@ -367,28 +393,28 @@ export const Moviesforyou = styled.article`
   height: 315px;
   background-color: var(--color-negro);
   position: absolute;
-  top: 60px;
-  left: 10px;
+  top: 45px;
+  left: -27%;
   padding-left: 20px;
   padding-right: 10px;
   box-shadow: 1px 1px 20px -1px var(--color-negro);
 
-  @media(max-width: 747px){
+  @media(max-width: 1200px){
     width: 320px;
-    height: 285px;
-    padding-left: 15px;
+    height: 290px;   
+    left: -14%;
   }
 
-  @media(max-width: 607px){
+  @media(max-width: 768px){
     width: 240px;
-    height: 240px;
-    padding-left: 15px;
+    height: 295px;
+    left: -4%;   
   }
 
-  @media(max-width: 532px){
+  @media(max-width: 480px){
     width: 230px;
-    height: 230px;
-    padding-left: 15px;
+    height: 260px;
+    left: -5%;    
   }
 
 `;
@@ -400,26 +426,27 @@ export const Currencyconverter = styled.article`
   background-color: var(--color-negro);
   position: absolute;
   top: 60px;
-  left: 10px;
+  left: -27%;
   padding-left: 20px;
   padding-right: 10px;
   box-shadow: 1px 1px 20px -1px var(--color-negro);
 
-  @media(max-width: 747px){
+  @media(max-width: 1200px){
     width: 320px;
-    height: 226px;
+    height: 230px;
+    left: -14%;
   }
 
-  @media(max-width: 607px){
+  @media(max-width: 768px){
     width: 240px;
-    height: 200px;
-    padding-left: 15px;
+    height: 230px;
+    left: -2%;  
   }
 
-  @media(max-width: 532px){
+  @media(max-width: 480px){
     width: 230px;
-    height: 190px;
-    padding-left: 15px;
+    height: 220px;
+    left: -5%;    
   }
 
 `;
@@ -432,12 +459,16 @@ export const Projecth2 = styled.h2`
   margin-top: 21px;
   font-size: 22px;
 
-  @media(max-width: 747px){
+  @media(max-width: 1200px){
+    font-size: 20px;
+  }
+
+  @media(max-width: 768px){
     font-size: 18px;
   }
 
-  @media(max-width: 607px){
-    font-size: 14px;
+  @media(max-width: 480px){
+    font-size: 16px;
   }
 
 `;
@@ -450,12 +481,16 @@ export const Projectp = styled.p`
   margin-bottom: 0;
   text-align: left;
 
-  @media(max-width: 747px){
+  @media(max-width: 1200px){
     font-size: 14px;
   }
 
-  @media(max-width: 607px){
-    font-size: 10px;
+  @media(max-width: 768px){
+    font-size: 12px;
+  }
+
+  @media(max-width: 480px){
+    font-size: 11px;
   }
 
 `;
@@ -476,8 +511,8 @@ export const Buttonview = styled.button`
   margin-right: 5px;
   border-radius: 2px;
   cursor: pointer;
-  font-size: 14px;
-  transition: all 800ms ease;
+  font-size: 16px;
+  transition: all 500ms ease;
   outline-width: 0;
 
   &:hover{
@@ -485,17 +520,18 @@ export const Buttonview = styled.button`
     transform: scale(0.97);
   }
 
-  @media(max-width: 747px){
-    font-size: 12px;
+  @media(max-width: 1200px){
+    font-size: 14px;
   }
 
-  @media(max-width: 607px){
-    font-size: 10px;
+  @media(max-width: 768px){
+    font-size: 12px;
     padding: 12px 10px;
   }
 
-  @media(max-width: 532px){    
+  @media(max-width: 480px){    
     padding: 10px 10px;
+    font-size: 12px;
   }
 
 `;
@@ -510,7 +546,7 @@ export const Buttoncode = styled.button`
   margin-right: 5px;
   border-radius: 2px;
   cursor: pointer;
-  font-size: 14px;
+  font-size: 16px;
   transition: all 800ms ease;
 
   &:hover{
@@ -518,16 +554,17 @@ export const Buttoncode = styled.button`
     transform: scale(0.97);
   }
 
-  @media(max-width: 747px){
-    font-size: 12px;
+  @media(max-width: 1200px){
+    font-size: 14px;
   }
 
-  @media(max-width: 607px){
-    font-size: 10px;
+  @media(max-width: 768px){
+    font-size: 12px;
     padding: 12px 15px;
   }
 
-  @media(max-width: 532px){    
+  @media(max-width: 480px){
+    font-size: 12px;
     padding: 10px 8px;
   }
 
