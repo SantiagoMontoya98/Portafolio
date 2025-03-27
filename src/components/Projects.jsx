@@ -1,7 +1,7 @@
 import React from 'react';
 import { Projectscontainer, Projectsarticle, Guappjolotas, Amazonas, CvApp } from '../css/ProjectsStyles';
 import { Projectsarticleh2, Projectsarticlep } from '../css/ProjectsStyles';
-import { Project, Projectimg, Blockmaster } from '../css/ProjectsStyles';
+import { Project, Projectimg, Blockmaster, ImgCvApp } from '../css/ProjectsStyles';
 import { Projecth2, Projectp, Buttonscontainer } from '../css/ProjectsStyles';
 import { Buttonview, Buttoncode, Landingpage } from '../css/ProjectsStyles';
 import { Documentation, Surveyform, Tributepage  } from '../css/ProjectsStyles';
@@ -26,7 +26,7 @@ const Projects = () => {
 
       <Projectimg
         src="https://res.cloudinary.com/da6fz1omm/image/upload/v1641283094/Im%C3%A1genes%20Portafolio%20Digital/cvapp_l5ulnr.png"
-        title="CvApp" alt="CvApp"/>
+        title="CvApp" alt="CvApp"/>  
 
       <CvApp>
 
@@ -36,7 +36,7 @@ const Projects = () => {
 
         <Buttonscontainer>
           <a href="https://cvapp-573c8.web.app/" target="_blank">
-            <Buttonview>Ver proyecto completo</Buttonview>
+            <Buttonview>Ver proyecto</Buttonview>
           </a>
 
           <a href="https://github.com/Juanpabedoyav/Demo-Day" target="_blank">
@@ -62,7 +62,7 @@ const Projects = () => {
 
         <Buttonscontainer>
           <a href="https://as-c9b11.web.app/" target="_blank">
-            <Buttonview>Ver proyecto completo</Buttonview>
+            <Buttonview>Ver proyecto</Buttonview>
           </a>
 
           <a href="https://github.com/SantiagoMontoya98/Amazonas" target="_blank">
@@ -87,9 +87,9 @@ const Projects = () => {
         <Projectp>Es una aplicación en la cual se venden guajolotas un platillo típico de México, además bebidas y tamales, la cual está conectada con la API de Stripe con el objetivo de realizar el pago de los productos.</Projectp>
 
         <Buttonscontainer>
-          <a href="https://guappjolotas.herokuapp.com/" target="_blank">
-            <Buttonview>Ver proyecto completo</Buttonview>
-          </a>
+          {/* <a href="https://guappjolotas.herokuapp.com/" target="_blank">
+            <Buttonview>Ver proyecto</Buttonview>
+          </a> */}
 
           <a href="https://github.com/SantiagoMontoya98/Guappjolotas" target="_blank">
             <Buttoncode>Ver código</Buttoncode>
@@ -118,7 +118,7 @@ const Projects = () => {
 
         <Buttonscontainer>
           <a href="https://santiagomontoya98.github.io/Block-Master/" target="_blank">
-            <Buttonview>Ver proyecto completo</Buttonview>
+            <Buttonview>Ver proyecto</Buttonview>
           </a>
 
           <a href="https://github.com/SantiagoMontoya98/Block-Master" target="_blank">
@@ -147,7 +147,7 @@ const Projects = () => {
 
         <Buttonscontainer>
           <a href="https://santiagomontoya98.github.io/Producto-Comercial/" target="_blank">
-            <Buttonview>Ver proyecto completo</Buttonview>
+            <Buttonview>Ver proyecto</Buttonview>
           </a>
 
           <a href="https://github.com/SantiagoMontoya98/Producto-Comercial" target="_blank">
@@ -174,7 +174,7 @@ const Projects = () => {
 
         <Buttonscontainer>
           <a href="https://santiagomontoya98.github.io/Documentacion-Tecnica/" target="_blank">
-            <Buttonview>Ver proyecto completo</Buttonview>
+            <Buttonview>Ver proyecto</Buttonview>
           </a>
 
           <a href="https://github.com/SantiagoMontoya98/Documentacion-Tecnica" target="_blank">
@@ -202,7 +202,7 @@ const Projects = () => {
 
         <Buttonscontainer>
           <a href="https://santiagomontoya98.github.io/Formulario-de-encuesta/" target="_blank">
-            <Buttonview>Ver proyecto completo</Buttonview>
+            <Buttonview>Ver proyecto</Buttonview>
           </a>
 
           <a href="https://github.com/SantiagoMontoya98/Formulario-de-encuesta" target="_blank">
@@ -229,7 +229,7 @@ const Projects = () => {
 
         <Buttonscontainer>
           <a href="https://santiagomontoya98.github.io/Pagina-tributo/" target="_blank">
-            <Buttonview>Ver proyecto completo</Buttonview>
+            <Buttonview>Ver proyecto</Buttonview>
           </a>
 
           <a href="https://github.com/SantiagoMontoya98/Pagina-tributo" target="_blank">
@@ -261,7 +261,7 @@ const Projects = () => {
 
         <Buttonscontainer>
           <a href="https://santiagomontoya98.github.io/Modulo-3-Tarea-03-Calculadora-IMC/" target="_blank">
-            <Buttonview>Ver proyecto completo</Buttonview>
+            <Buttonview>Ver proyecto</Buttonview>
           </a>
 
           <a href="https://github.com/SantiagoMontoya98/Modulo-3-Tarea-03-Calculadora-IMC" target="_blank">
@@ -291,7 +291,7 @@ const Projects = () => {
 
         <Buttonscontainer>
           <a href="https://santiagomontoya98.github.io/Modulo-3-Tarea-02-Peliculas/" target="_blank">
-            <Buttonview>Ver proyecto completo</Buttonview>
+            <Buttonview>Ver proyecto</Buttonview>
           </a>
 
           <a href="https://github.com/SantiagoMontoya98/Modulo-3-Tarea-02-Peliculas" target="_blank">
@@ -319,7 +319,7 @@ const Projects = () => {
 
         <Buttonscontainer>
           <a href="https://santiagomontoya98.github.io/Modulo-3-Tarea-01-Divisas/" target="_blank">
-            <Buttonview>Ver proyecto completo</Buttonview>
+            <Buttonview>Ver proyecto</Buttonview>
           </a>
 
           <a href="https://github.com/SantiagoMontoya98/Modulo-3-Tarea-01-Divisas" target="_blank">
