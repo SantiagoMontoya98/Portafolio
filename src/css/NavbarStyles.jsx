@@ -11,7 +11,7 @@ export const Navstyle = styled.nav`
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 999;  
+  z-index: 10;  
 `;
 
 export const Hamburgerb = styled.button`
@@ -123,7 +123,6 @@ export const Hellolink = styled.a`
   @media (max-width: 617px){
     display: none;
   }
-
 
 `;
 
