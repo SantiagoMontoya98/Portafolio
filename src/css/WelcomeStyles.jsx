@@ -7,7 +7,7 @@ export const Welcomestyle = styled.section`
   width: 100vw;
   display: flex;
   justify-content: space-evenly;
-  align-items: flex-start;
+  align-items: flex-start;  
 
   @media (max-width: 1000px){
     flex-direction: column-reverse;
@@ -19,7 +19,7 @@ export const Welcomestyle = styled.section`
 
 export const Articlestyle = styled.article`
 
-  margin-top: 180px;
+  margin-top: 280px;
 
   @media (max-width: 1000px){
     margin-top: 20px;
@@ -134,32 +134,24 @@ export const Articlep = styled.p`
 
 export const Welcomefigure = styled.figure `
 
-  margin-top: 180px;
-
-  @media (max-width: 1000px){
-    margin-top: 78px;
-  }    
-
-  @media (max-width: 637px){
-    margin-top: 70px;
+  @media (min-width: 1000px){
+    margin-top: 180px;
   }
-
-  @media (max-width: 337px){
-    margin-top: 100px;
-  }
-
+  
 `;
 
 export const Welcomeimg = styled.img`
 
-  height: 350px;
+  height: 400px;
+  transition: height 800ms ease;
 
   @media (max-width: 1000px){
-    height: 280px;
+    height: 340px;
+    margin-bottom: 20px;
   }
 
   @media (max-width: 637px){
-    height: 220px;
+    height: 300px;
   }
 
 `;
@@ -194,31 +186,31 @@ export const Arrowimg = styled.img`
   animation: ${Movearrow} 1.5s ease infinite;
 
   @media (max-width: 1000px){
-    margin-top: 15px;
+    margin-top: 40px;
   }   
 
   @media (max-width: 637px){
-    margin-top: 50px;
+    margin-top: 60px;
   }
 
   @media (max-width: 527px){
-    margin-top: 40px;
-  }
-
-  @media (max-width: 462px){
-    margin-top: 30px;
-  }
-
-  @media (max-width: 337px){
-    margin-top: 40px;    
-  }
-
-  @media (max-width: 307px){
     margin-top: 50px;
   }
 
+  @media (max-width: 462px){
+    margin-top: 40px;
+  }
+
+  @media (max-width: 337px){
+    margin-top: 50px;    
+  }
+
+  @media (max-width: 307px){
+    margin-top: 60px;
+  }
+
   @media (max-width: 297px){
-    margin-top: 25px;
+    margin-top: 35px;
   }
 
 `;

@@ -19,9 +19,7 @@ const Navbar = () => {
 
   const handleClick = ({target}) => {
 
-    if(target.matches("#hola")){
-
-      console.log(target);
+    if(target.matches("#hola")){      
 
       setColorLink({
 
@@ -36,9 +34,7 @@ const Navbar = () => {
 
     }
 
-    if(target.matches("#proyectos")){
-
-      console.log(target);
+    if(target.matches("#proyectos")){      
 
       setColorLink({
 
@@ -53,9 +49,7 @@ const Navbar = () => {
 
     }
 
-    if(target.matches("#contacto")){
-
-      console.log(target);
+    if(target.matches("#contacto")){      
 
       setColorLink({
 
@@ -71,7 +65,6 @@ const Navbar = () => {
     }
 
   }
-
 
   return (
 
