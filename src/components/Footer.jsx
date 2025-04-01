@@ -17,7 +17,7 @@ const Footer = () => {
 
         <Footermarginp>Hecho con ❤️ por Santiago</Footermarginp>
 
-        <Copyright>Copyright &copy; 2021 Todos los derechos reservados</Copyright>
+        <Copyright>Copyright &copy; 2025 Todos los derechos reservados</Copyright>
 
       </Footerby>
 

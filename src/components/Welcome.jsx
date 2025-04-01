@@ -1,10 +1,13 @@
-import React from 'react';
+import React, { useContext }  from 'react';
 import { Welcomestyle, Articlestyle, Articleh1, Articleh2} from '../css/WelcomeStyles';
 import { Articlep, Welcomefigure, Welcomeimg, Arrowimg } from '../css/WelcomeStyles';
+import StylesContext from "./StylesProvider";
 
 const Welcome = () => {
-  return (
-    
+
+   const {handleChangeStyles} = useContext(StylesContext);
+
+  return (    
 
   <Welcomestyle id="welcome-section">
 
@@ -16,9 +19,13 @@ const Welcome = () => {
       <Articlep>Desarrollador Frontend apasionado por el conocimiento sobre el desarrollo de software. Me encanta escuchar
         música y salir a caminar.</Articlep>
 
-      <a href="#projects"><Arrowimg
+      <a href="#projects">
+        <Arrowimg
           src="https://res.cloudinary.com/da6fz1omm/image/upload/v1635992909/Im%C3%A1genes%20Portafolio%20Digital/arrow-down_hhoc6g.svg"
-          alt=""/></a>
+          alt=""
+          id="proyectos"
+          onClick={handleChangeStyles}/>
+      </a>
 
     </Articlestyle>
 

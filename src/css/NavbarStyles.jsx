@@ -50,7 +50,7 @@ export const Hamburgerb = styled.button`
 
   @media (max-width: 297px){    
     margin-left: -25px;
-  }
+  }  
 
 `;
 

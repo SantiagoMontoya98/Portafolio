@@ -1,78 +1,21 @@
-import React, { useState } from "react";
+import React, { useContext } from "react";
 import {Navstyle, Logolink, Imglogo, Links, Hellolink} from "../css/NavbarStyles";
 import {Cvbutton, Cvbuttonr, Hamburgercolor} from "../css/NavbarStyles";
 import {Hamburgerb} from "../css/NavbarStyles";
+import StylesContext from "./StylesProvider";
 
 
 const Navbar = () => {
 
-  const [colorLink, setColorLink] = useState({
-
-    hola: "var(--color-verde)",
-    textHola: "underline",
-    proyectos: "",
-    textProyectos: "",
-    contacto: "",
-    textContacto: ""
-
-  });
-
-  const handleClick = ({target}) => {
-
-    if(target.matches("#hola")){      
-
-      setColorLink({
-
-        hola: "var(--color-verde)",
-        textHola: "underline",
-        proyectos: "",
-        textProyectos: "",
-        contacto: "",
-        textContacto: ""
-
-      })
-
-    }
-
-    if(target.matches("#proyectos")){      
-
-      setColorLink({
-
-        hola: "",
-        textHola: "",
-        proyectos: "var(--color-verde)",
-        textProyectos: "underline",
-        contacto: "",
-        textContacto: ""
-
-      })
-
-    }
-
-    if(target.matches("#contacto")){      
-
-      setColorLink({
-
-        hola: "",
-        textHola: "",
-        proyectos: "",
-        textProyectos: "",
-        contacto: "var(--color-verde)",
-        textContacto: "underline"
-
-      })
-
-    }
-
-  }
+  const {colorLink, handleChangeStyles, handleOpenBurger} = useContext(StylesContext);  
 
   return (
 
-    <Navstyle>      
+    <Navstyle>
 
       <Logolink>
 
-        <Hamburgerb className="hamburger hamburger--collapse" type="button">
+        <Hamburgerb className="hamburger hamburger--collapse" type="button" onClick={() => handleOpenBurger(true)}>
           <span className="hamburger-box">
             <Hamburgercolor className="hamburger-inner"></Hamburgercolor>
           </span>
@@ -83,13 +26,13 @@ const Navbar = () => {
             title="Santiago Montoya Cano" alt="Santiago Montoya Cano"/>
         </a>
 
-        <Hellolink href="#welcome-section" id="hola" onClick={handleClick} 
+        <Hellolink href="#welcome-section" id="hola" onClick={handleChangeStyles} 
                    style={{color: colorLink.hola, textDecorationLine: 
                    colorLink.textHola}}>Hola</Hellolink>
-        <Links href="#projects" id="proyectos" onClick={handleClick}
+        <Links href="#projects" id="proyectos" onClick={handleChangeStyles}
                style={{color: colorLink.proyectos, textDecorationLine: 
                colorLink.textProyectos}}>Proyectos</Links>
-        <Links href="#contact" id="contacto" onClick={handleClick}
+        <Links href="#contact" id="contacto" onClick={handleChangeStyles}
                style={{color: colorLink.contacto, textDecorationLine: 
                colorLink.textContacto}}>Contacto</Links>
 

@@ -13,7 +13,7 @@ export const Welcomestyle = styled.section`
     flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
-  }
+  }    
 
 `;
 
@@ -137,25 +137,25 @@ export const Welcomefigure = styled.figure `
   @media (min-width: 1000px){
     margin-top: 180px;
   }
-  
+   
 `;
 
 export const Welcomeimg = styled.img`
 
-  height: 350px;
+  height: 45vh;
   transition: height 800ms ease;
 
   @media(max-width: 1200px){    
-    height: 340px;   
+    height: 35vh;   
   }
 
   @media(max-width: 768px){    
-    height: 300px;    
+    height: 30vh;    
   }
 
   @media(max-width: 480px){    
-    height: 280px;    
-  }
+    height: 25vh;    
+  }  
 
 `;
 

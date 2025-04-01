@@ -2,11 +2,11 @@ import styled from "styled-components";
 
 export const ContainerLinks = styled.section`
 
-  position: absolute;
+  position: fixed;
   inset: 0;
   background-color: rgba(0, 0, 0);  
   display: block;
-  z-index: 999;  
+  z-index: 999;
 
 `;
 
@@ -17,15 +17,14 @@ export const LinksBurger = styled.section`
   height: 100%;
   justify-content: center;
   align-items: center;
-  margin-top: -35vh;  
+  margin-top: -30vh;  
 
 `;
 
 export const LinkBurger = styled.a`
 
   font-size: 24px;  
-  padding: 18px;
-  //border-bottom: 1px solid var(--color-verde); 
+  padding: 18px; 
   text-align: center;
   color: var(--color-blanco);
   font-family: "Nunito 2", sans-serif;

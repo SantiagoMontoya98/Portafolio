@@ -22,6 +22,7 @@ html {
   overflow-x: visible;
   overflow-y: visible;
   min-width: 300px;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -50,4 +51,14 @@ h6 {
 .hamburger.is-active .hamburger-inner:after,
 .hamburger.is-active .hamburger-inner:before {
   background-color: var(--color-verde);
+}
+
+.open-burger{
+  transition: transform 500ms ease;
+  transform: translate(0, 0);
+}
+
+.close-burger {
+  transition: transform 500ms ease;
+  transform: translate(-100%, 0);
 }
