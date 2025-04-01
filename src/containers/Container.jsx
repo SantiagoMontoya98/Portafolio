@@ -4,7 +4,7 @@ import Welcome from '../components/Welcome';
 import Projects from '../components/Projects';
 import Contact from '../components/Contact';
 import Footer from '../components/Footer';
-import ContainerBurger from '../components/ContainerBurger';
+import NavbarBurger from '../components/NavbarBurger';
 import { StylesProvider } from '../components/StylesProvider';
 
 export const Container = () => {
@@ -13,7 +13,7 @@ export const Container = () => {
     <StylesProvider>
       <main>
 
-        <ContainerBurger/>
+        <NavbarBurger/>
 
         <Navbar/>
         

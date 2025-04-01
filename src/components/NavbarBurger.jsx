@@ -2,7 +2,7 @@ import React, {useContext} from "react";
 import { ContainerLinks, LinksBurger, LinkBurger, CloseBurger } from "../css/ContainerBurgerStyles";
 import StylesContext from "./StylesProvider";
 
-const ContainerBurger = () => {
+const NavbarBurger = () => {
 
   const {colorLink, handleChangeStylesBurger, openBurger, handleOpenBurger} = useContext(StylesContext);  
 
@@ -36,4 +36,4 @@ const ContainerBurger = () => {
 
 }
 
-export default ContainerBurger;
+export default NavbarBurger;
