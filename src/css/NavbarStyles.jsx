@@ -9,14 +9,14 @@ export const Navstyle = styled.nav`
   justify-content: space-between;
   align-items: center;
   position: fixed;
+  z-index: 10;
   top: 0;
-  left: 0;
-  z-index: 10;  
+  left: 0;  
 `;
 
 export const Hamburgerb = styled.button`
   
-  display: none;
+  display: none;  
 
   @media (max-width: 617px){
     display: block;
@@ -56,15 +56,15 @@ export const Hamburgerb = styled.button`
 
 export const Hamburgercolor = styled.span`
 
-  background-color: var(--color-blanco);
+  background-color: var(--color-verde);
   display: none;
 
   &:before{
-    background-color: var(--color-blanco);
+    background-color: var(--color-verde);
   }
 
   &:after{
-    background-color: var(--color-blanco);
+    background-color: var(--color-verde);
   }
 
   @media (max-width: 617px){

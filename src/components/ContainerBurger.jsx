@@ -1,6 +1,5 @@
 import React, { useState } from "react";
-import {Links, Hellolink} from "../css/NavbarStyles";
-import { ContainerLinks, LinksBurger } from "../css/ContainerBurgerStyles";
+import { ContainerLinks, LinksBurger, LinkBurger, CloseBurger } from "../css/ContainerBurgerStyles";
 
 const ContainerBurger = () => {
 
@@ -67,17 +66,25 @@ const ContainerBurger = () => {
   return(
     <ContainerLinks>
 
+      <CloseBurger>
+        <button class="hamburger hamburger--collapse is-active" type="button">
+          <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+          </span>
+        </button>
+      </CloseBurger>
+
       <LinksBurger>
 
-          <a href="#welcome-section" id="hola" onClick={handleClick} 
+          <LinkBurger href="#welcome-section" id="hola" onClick={handleClick} 
                     style={{color: colorLink.hola, textDecorationLine: 
-                    colorLink.textHola}}>Hola</a>
-          <a href="#projects" id="proyectos" onClick={handleClick}
+                    colorLink.textHola}}>Hola</LinkBurger>
+          <LinkBurger href="#projects" id="proyectos" onClick={handleClick}
                 style={{color: colorLink.proyectos, textDecorationLine: 
-                colorLink.textProyectos}}>Proyectos</a>
-          <a href="#contact" id="contacto" onClick={handleClick}
+                colorLink.textProyectos}}>Proyectos</LinkBurger>
+          <LinkBurger href="#contact" id="contacto" onClick={handleClick}
                 style={{color: colorLink.contacto, textDecorationLine: 
-                colorLink.textContacto}}>Contacto</a>
+                colorLink.textContacto}}>Contacto</LinkBurger>
 
       </LinksBurger>
 

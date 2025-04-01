@@ -142,16 +142,19 @@ export const Welcomefigure = styled.figure `
 
 export const Welcomeimg = styled.img`
 
-  height: 400px;
+  height: 350px;
   transition: height 800ms ease;
 
-  @media (max-width: 1000px){
-    height: 340px;
-    margin-bottom: 20px;
+  @media(max-width: 1200px){    
+    height: 340px;   
   }
 
-  @media (max-width: 637px){
-    height: 300px;
+  @media(max-width: 768px){    
+    height: 300px;    
+  }
+
+  @media(max-width: 480px){    
+    height: 280px;    
   }
 
 `;
